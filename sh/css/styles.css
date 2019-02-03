@@ -32,10 +32,12 @@ body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.7;
     font-size: 14px;
-    background-image: url("https://assets.sardeath.com/images/5hanayome/chara_04.png");
-    background-repeat: no-repeat;
+    background: url('https://assets.sardeath.com/images/5hanayome/chara_02.png');
     background-position: right bottom;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-attachment: scroll, fixed;
+    max-height:90%;
 }
 
 a {
