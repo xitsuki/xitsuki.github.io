@@ -56,7 +56,7 @@ $(window).on("load", function () {
 
 	setTimeout(function () {
 		$(".load_overlay").fadeOut(1000);
-	}, 400);
+	}, 500);
 
 	setTimeout(function () {
 		$(".catch_bg").css({
