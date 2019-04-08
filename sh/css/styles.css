@@ -244,6 +244,52 @@ textarea {
     z-index: 100000; /* Above WP toolbar */
 }
 
+/* Table Info */
+table {
+  border-spacing: 0;
+  width: 100%;
+  border-collapse: separate;
+  margin-bottom: 1.5em;
+}
+
+table tr:nth-child(even) {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+table td,
+table th {
+  padding: .4em;
+  text-align: left;
+  border-right: 1px dotted rgba(0, 0, 0, 0.1);
+}
+
+table th:last-child,
+table tr td:last-child {
+  border-right: 0;
+}
+
+table thead th {
+  background: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  padding: 0.7em .4em;
+  vertical-align: middle;
+}
+
+table tbody th {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.entry table tbody td,
+.entry table tbody th {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.table-is-responsive {
+  clear: both;
+  overflow-x: auto;
+}
+
 /* Clearing floats */
 .clear:before,
 .clear:after,
