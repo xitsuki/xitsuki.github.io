@@ -260,7 +260,6 @@ table td,
 table th {
   padding: .3em;
   text-align: left;
-  border-right: 1px dotted rgba(0, 0, 0, 0.1);
 }
 
 table th:last-child,
@@ -271,7 +270,6 @@ table tr td:last-child {
 table thead th {
   background: rgba(0, 0, 0, 0.03);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  text-transform: uppercase;
   padding: 0.7em .4em;
   vertical-align: middle;
 }
